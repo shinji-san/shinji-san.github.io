@@ -1,0 +1,29 @@
+{
+  "name": "gh_shinji-san",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "GitHub:shinji-san/shinji-san.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-webp": "^4.0.1",
+    "html-minifier": "^4.0.0",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "gulp-reinstall": "^0.3.0"
+  }
+}

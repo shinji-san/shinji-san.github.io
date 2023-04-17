@@ -64,10 +64,7 @@ body
     height: 100%;
     background: rgb(2,0,36);
     background: linear-gradient(60deg, rgba(2,0,36,1) 0%, rgba(130,130,130,1) 59%, rgba(210,215,211,1) 100%);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     border-radius: 15px;
@@ -127,6 +124,19 @@ body.is-preload #card {
     line-height: 1.4;
     letter-spacing: 0.22em;
     margin-bottom: 0.2em;
+}
+
+#profile span {
+    margin-left: 0.5em;
+}
+
+#profile a {
+    text-decoration: none;
+    color: white;
+}
+
+#profile a:hover {
+    text-decoration: underline;
 }
 
 #profile_img {
@@ -192,12 +202,19 @@ body.is-preload #card {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 444px) {
     .box span{
         display: none;
     }
     .box i{
         font-size: 20pt;
+    }
+    #profile h1{
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+    #profile p{
+        font-size: 0.60em;
     }
 }
 
